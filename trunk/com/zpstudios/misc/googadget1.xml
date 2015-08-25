@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<Module>
+  <ModulePrefs title="Google Gadget" /> 
+  <Content type="html">
+     <![CDATA[ 
+       <!--[if IE]>
+	<center><object type="application/x-shockwave-flash" data="http://alessandroituarte.com/labs/DepthTest.swf" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="300" height="200">
+		<param name="wmode" value="opaque" />
+		<param name="movie" value="http://alessandroituarte.com/labs/DepthTest.swf" />
+	</object></center>
+<center>(Btw, I hate you for using IE, get a <a href="http://www.mozilla.com/firefox/">real browser</a>)</center>
+<![endif]-->
+<!--[if !IE]><!-->
+	<center><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="300" height="200" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0"><param name="src" value="DepthTest.swf" /><embed type="application/x-shockwave-flash" width="300" height="200" src="http://alessandroituarte.com/labs/DepthTest.swf"></embed></object></center>
+<!--<![endif]-->
+     ]]>
+  </Content> 
+</Module>
